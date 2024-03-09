@@ -1,13 +1,17 @@
 import { Output } from "./Output";
 import RangeSelector from "./RangeSelector";
 import Checkbox from "@mui/material/Checkbox";
+import { Footer } from "./Footer";
+
+
+
 
 export default function PasswordGenerator() {
   return (
     <>
-      <h1 className="text-4xl text-center text-white">Password Generator</h1>
+      <h1 className=" mt-7 text-4xl font-roboto text-center text-white">Password Generator</h1>
 
-      <div className="bg-slate-600 rounded-lg w-[80%] mx-auto my-8 overflow-auto md:w-[50%]">
+      <div className="bg-slate-800 rounded-3xl w-[80%] mx-auto my-8 overflow-auto md:w-[50%]">
         <div className="flex pt-5 justify-center">
           <Output />
         </div>
@@ -19,15 +23,16 @@ export default function PasswordGenerator() {
           <div className="flex justify-center">
             <Checkbox size="small" defaultChecked />
             <div className="flex items-center">
-            <p className="font-medium font-roboto">Numbers</p>
+            <p className="font-medium text-white font-poppins">Numbers</p>
             </div>
             <Checkbox size="small" defaultChecked />
             <div className="flex items-center">
-            <p className="font-normal font-poppins ">Characters</p>
+            <p className="font-normal text-white font-poppins ">Characters</p>
             </div>
           </div>
         </div>
       </div>
+      <Footer/>
     </>
   );
 }

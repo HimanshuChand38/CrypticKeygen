@@ -1,13 +1,13 @@
 import * as React from 'react'
-import { Plus } from 'lucide-react'
+import { Copy } from 'lucide-react'
 
 export function IconButton() {
   return (
     <button
       type="button"
-      className=" px-3 py-3 text-white hover:bg-black/80"
+      className="rounded-full !bg-black px-3 py-3 text-sm font-semibold text-white shadow-sm hover:!bg-slate-400"
     >
-      <Plus className="h-4 w-4" />
+        <Copy size={16} />
     </button>
   )
 }
