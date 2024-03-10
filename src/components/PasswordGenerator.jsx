@@ -50,7 +50,7 @@ export default function PasswordGenerator() {
         <div className="md:flex md:justify-evenly mt-6 mb-5 ">
           <div className="mx-auto w-[60%] md:w-[40%] md:mx-0 pt-1.5 ">
             {/*=========== RANGE SELECTOR PART STARTS==================*/}
-            <RangeSelector length={length} setlength={setlength} passGen={generator} />
+            <RangeSelector length={length} setlength={setlength} />
             {/*=========== RANGE SELECTOR PART ENDS==================*/}
           </div>
 
@@ -59,7 +59,6 @@ export default function PasswordGenerator() {
             {/*=========== FIRST CHECKBOX PART STARTS==================*/}
             <Checkbox id="isNumber" size="small" defaultChecked onClick={()=>{
                 setIsNumber((old)=>!old);
-                generator();
             }}/>
             {/*=========== FIRST CHECKBOX PART ENDS==================*/}
             <div className="flex items-center">
@@ -70,7 +69,6 @@ export default function PasswordGenerator() {
             {/*=========== SECOND CHECKBOX PART STARTS==================*/}
             <Checkbox id="isChar" size="small" onClick={(e)=>{
                 setIsChar((old)=>!old);
-                generator();
             }} />
             {/*=========== SECOND CHECKBOX PART ENDS==================*/}
             <div className="flex items-center">
