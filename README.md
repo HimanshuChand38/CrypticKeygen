@@ -1,8 +1,31 @@
-# React + Vite
+# CrypticKeygen
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+CrypticKeygen is an advanced password generator designed to adhere to the latest security protocols. It creates passwords using a combination of special characters, alphanumeric characters, and other security measures, ensuring robust protection for your accounts and sensitive information.
 
-Currently, two official plugins are available:
+## Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[CrypticKeygen](https://cryptickeygen.vercel.app/)
+
+## Installation
+
+Install my-project with npm
+
+```bash
+  cd 'Random-Password-Generator'
+  npm install
+  npm run dev
+```
+
+## Contributing
+
+Contributions are always welcome!
+
+Please adhere to this project's `code of conduct`.
+
+## Badges
+
+Add badges from somewhere like: [shields.io](https://shields.io/)
+
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
+[![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
